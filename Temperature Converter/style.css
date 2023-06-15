@@ -1,0 +1,78 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Bruno Ace SC', cursive;
+    background: linear-gradient(500deg, #8b9043,#b62828,#161576f2,#6e2284);
+    color: whitesmoke;
+}
+.title{
+    margin-bottom: 34px;
+    font-size: 34px;
+    color: #2c044a;
+
+}
+.units{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 34em;
+    gap: 1.5em;
+    flex-wrap: wrap;
+}
+.panel{
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    min-width: 13em;
+    height: 10em;
+    position: relative;
+}
+.panel:nth-child(1){
+    background: linear-gradient(#6e2284,#f94242);
+}
+.panel:nth-child(2){
+    background: linear-gradient(#828a0e,#cc3c23);
+}
+.panel:nth-child(3){
+    background: linear-gradient(#110f8ff2,#6b1483);
+}
+.bg-unit1{
+    margin: 29px 49px ;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size: 4.3em;
+    z-index: 0;
+    pointer-events: none;
+}
+.bg-unit2{
+    margin: 28px 29px ;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size: 3.8em;
+    z-index: 0;
+    pointer-events: none;
+}
+.bg-unit3{
+    margin: 25px 60px ;
+    position: absolute;
+    transform: translate(-16%,-47%);
+    font-size: 4.1em;
+    pointer-events: none;
+}
+/* .panel input::-webkit-file-upload-button,
+.panel input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+} */
+.panel input{
+    border: none;
+    background: none;
+    margin-top: 0.5em;
+    width: 4em;
+    height: 1em;
+    font-size:2em;
+    font-weight: 600;
+}
+.panel input:focus{
+    outline: none;
+}
